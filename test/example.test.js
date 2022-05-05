@@ -3,16 +3,16 @@
 
 const test = QUnit.test;
 
-test('time to test a function', (expect) => {
+test('test disc render function', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = true;
+    const expected = `<div id="discs"><div class="disc"><h1>Wraith</h1><img src="./assets/wraith.jpg" /><p>The Wratih has a speed of 11 and glide of 3</p></div></div>`;
     
     //Act 
     // Call the function you're testing and set the result to a const
-    const actual = true;
+    const actual = renderDisc(discs[0]);
 
     //Expect
     // Make assertions about what is expected versus the actual result
-    expect.equal(actual, expected);
+    expect.equal(actual.outerHTML, expected);
 });
