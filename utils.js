@@ -31,3 +31,7 @@ export function renderGoblin(goblin) {
     div.append(img, h1, p);
     return div;
 }
+
+export function renderTools(tool){
+    
+}
