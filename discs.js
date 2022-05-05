@@ -8,4 +8,4 @@ export const goblins = [{ name: 'McStabby', hp: 2, image: './assets/goblin.jpg' 
     { name: 'Stabby McStabbo', hp: 4, image: './assets/goblin.jpg' },
 ];
 
-export const tools = [{ name: 'Shovel', dig: 7, durability: 9, perks: ['Easy to use', 'Versatile', 'Decent at killing zomibes'] }];
+export const tools = [{ name: 'Spade', dig: 7, durability: 9, image: './assets/shovel.jpg', perks: ['Easy to use', 'Versatile', 'Decent at killing zombies'] }];

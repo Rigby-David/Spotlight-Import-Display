@@ -36,7 +36,7 @@ test('test goblin render function', (expect) => {
 test('test tool render function', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = `<div class="tool"><img src="./assets/shovel.jpg"><h1>Spade</h1><p>The spade has a digging factor of 7 and a durability factor of 9</p><ul><li>Easy to use</li><li>Versatile</li><li>Decent as killing zombies</li></ul></div>`;
+    const expected = `<div class="tool"><img src="./assets/shovel.jpg"><h1>Spade</h1><p>The Spade has a digging factor of 7 and a durability factor of 9</p><h2>Perks</h2><ul><li>Easy to use</li><li>Versatile</li><li>Decent at killing zombies</li></ul></div>`;
     
     //Act 
     // Call the function you're testing and set the result to a const
