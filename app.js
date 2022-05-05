@@ -1,6 +1,6 @@
 // import functions and grab DOM elements
 import { discs } from './discs.js';
-import { renderDisc } from './utils';
+import { renderDisc } from './utils.js';
 // let state
 
 // set event listeners 

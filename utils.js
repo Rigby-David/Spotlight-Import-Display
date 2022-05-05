@@ -6,8 +6,11 @@ export function renderDisc(disc) {
     h1.textContent = disc.name;
 
     const img = document.createElement('img');
-    img.src = 
+    img.src = disc.image;
 
-    div.append(h1);
+    const p = document.createElement('p');
+    p.textContent = `The ${disc.name} has a speed of ${disc.speed} and glide of ${disc.glide}`;
+
+    div.append(h1, img, p);
     return div;
 }

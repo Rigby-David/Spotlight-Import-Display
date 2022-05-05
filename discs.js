@@ -1,1 +1,1 @@
-export const discs = [{ name: 'Wraith', speed: 11, glide: 3, image: './assets/wraith.png' }];
+export const discs = [{ name: 'Wraith', speed: 11, glide: 3, image: './assets/wraith.jpg' }];
