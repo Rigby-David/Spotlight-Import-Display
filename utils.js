@@ -32,6 +32,13 @@ export function renderGoblin(goblin) {
     return div;
 }
 
-export function renderTools(tool){
-    
+export function renderTool(tool){
+    const div = document.createElement('div');
+    div.classList.add('tool');
+
+    const img = document.createElement('div');
+    img.src = tool.image;
+
+    div.append(img);
+    return div;
 }
