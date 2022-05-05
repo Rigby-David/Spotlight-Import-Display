@@ -1,7 +1,7 @@
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
-import { discs } from '../discs.js';
-import { renderDisc } from '../utils.js';
+import { discs, goblins } from '../discs.js';
+import { renderDisc, renderGoblin } from '../utils.js';
 
 const test = QUnit.test;
 
@@ -22,11 +22,11 @@ test('test disc render function', (expect) => {
 test('test goblin render function', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = ``;
+    const expected = `<div class="goblin"><img src="./assets/goblin.jpg"><h1>McStabby</h1><p>McStabby has 2 HP</p></div>`;
     
     //Act 
     // Call the function you're testing and set the result to a const
-    const actual = ;
+    const actual = renderGoblin(goblins[0]);
 
     //Expect
     // Make assertions about what is expected versus the actual result

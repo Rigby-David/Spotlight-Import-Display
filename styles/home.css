@@ -19,7 +19,11 @@
     border: 5px solid black;
 }
 
-.course {
+#goblins {
+    display: flex;
+}
+
+.goblin {
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -27,5 +31,9 @@
     border: 5px solid black;
     padding: 20px;
     border-radius: 10px;
-    margin-right: 10px;
+    margin-right: 10px
+}
+
+.goblin img {
+    width: 100%;
 }
